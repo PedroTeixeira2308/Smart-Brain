@@ -1,10 +1,10 @@
 # 🧠 Face Recognition Brain
 
-![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=node.js)
 ![Express.js](https://img.shields.io/badge/Express.js-Framework-black?logo=express)
 ![Version](https://img.shields.io/badge/version-1.0.0-green)
-![Create React App](https://img.shields.io/badge/Built%20with-CRA-orange?logo=react)
+![Vite](https://img.shields.io/badge/Built%20with-Vite-orange?logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 
