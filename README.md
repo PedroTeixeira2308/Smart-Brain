@@ -74,30 +74,30 @@ npm run dev
 ## Project Structure
 ```markdown
 src/
- ┣ assets/
- ┣ Components/
- ┃ ┣ FaceRecognition/
- ┃ ┃ ┣ FaceRecognition.css
- ┃ ┃ ┗ FaceRecognition.jsx
- ┃ ┣ ImageLinkForm/
- ┃ ┃ ┣ ImageLinkForm.css
- ┃ ┃ ┗ ImageLinkForm.jsx
- ┃ ┣ Logo/
- ┃ ┃ ┣ brain.png
- ┃ ┃ ┣ Logo.css
- ┃ ┃ ┗ Logo.jsx
- ┃ ┣ Navigation/
- ┃ ┃ ┗ Navigation.jsx
- ┃ ┣ Rank/
- ┃ ┃ ┗ Rank.jsx
- ┃ ┣ Register/
- ┃ ┃ ┗ Register.jsx
- ┃ ┗ SignIn/
- ┃ ┃ ┗ SignIn.jsx
- ┣ App.css
- ┣ App.jsx
- ┣ index.css
- ┗ main.jsx
+┣ assets/
+┣ Components/
+┃ ┣ FaceRecognition/
+┃ ┃ ┣ FaceRecognition.css
+┃ ┃ ┗ FaceRecognition.jsx
+┃ ┣ ImageLinkForm/
+┃ ┃ ┣ ImageLinkForm.css
+┃ ┃ ┗ ImageLinkForm.jsx
+┃ ┣ Logo/
+┃ ┃ ┣ brain.png
+┃ ┃ ┣ Logo.css
+┃ ┃ ┗ Logo.jsx
+┃ ┣ Navigation/
+┃ ┃ ┗ Navigation.jsx
+┃ ┣ Rank/
+┃ ┃ ┗ Rank.jsx
+┃ ┣ Register/
+┃ ┃ ┗ Register.jsx
+┃ ┗ SignIn/
+┃ ┃ ┗ SignIn.jsx
+┣ App.css
+┣ App.jsx
+┣ index.css
+┗ main.jsx
 ```
 
 ## Features
@@ -117,7 +117,7 @@ src/
 
 ## Author
 
-Pedro Teixeira — Full-Stack Developer (C#, .NET & React)
+Pedro Teixeira — Full-Stack Developer
 [GitHub](https://github.com/PedroTeixeira2308) | [LinkedIn](https://www.linkedin.com/in/pedro-teixeira-967615347
 )
 
