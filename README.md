@@ -58,7 +58,7 @@ The interface is clean, fully responsive, and enhanced with a **particles backgr
 
 ```bash
 # Clone the front-end repository
-git clone https://github.com/PedroTeixeira2308/Smart-Brain-.git
+git clone https://github.com/PedroTeixeira2308/Smart-Brain.git
 
 # Enter the project folder
 cd smart-brain
