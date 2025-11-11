@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {api} from '../../config/api'
 
 
 class Register extends React.Component {
@@ -29,7 +29,7 @@ class Register extends React.Component {
       this.setState({ errorMessage: 'Please fill in all fields' });
       return;
     }
-    fetch('http://localhost:3000/register', {
+    fetch(api.register, {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
