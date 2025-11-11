@@ -8,6 +8,8 @@ import SignIn  from './Components/SignIn/SignIn';
 import Register  from './Components/Register/Register';
 import ParticlesBg from 'particles-bg';
 import './App.css';
+import {api} from './config/api'
+
 
 const initialState = {
   input: '',
@@ -30,11 +32,11 @@ class App extends Component {
     this.state = initialState;
   }
 
-  componentDidMount() {
-    fetch('http://localhost:3000')
-      .then(response => response.json())
-      .then(console.log)
-  }
+  // componentDidMount() {
+  //   fetch(api.base)
+  //     .then(response => response.json())
+  //     .then(console.log)
+  // }
 
   loadUser = (data) => {
     this.setState({user: {
@@ -95,7 +97,7 @@ class App extends Component {
 
     this.setState({ imageUrl, box: {}, clarifaiResponse: null });
 
-    fetch('http://localhost:3000/api/clarifai/face-detect', {
+    fetch(api.clarifai, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ imageUrl })
@@ -107,7 +109,7 @@ class App extends Component {
       .then(response => {
         // console.log('Clarifai response:', response); // to see the complete result in console
         this.onClarifaiResponse(response); 
-        return fetch('http://localhost:3000/image', {
+        return fetch(api.image, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ id: this.state.user.id })
