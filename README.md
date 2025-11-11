@@ -40,6 +40,7 @@ B -->|External| D[Clarifai API]
 
 | Version | Description |
 |----------|--------------|
+| **v1.1.1** | Code Review Improvements|
 | **v1.1.0** | Added notifications for login/register feedback, improved form validation |
 | **v1.0.0** | First complete version — Front-end (React) integrated with backend (Node.js + Express) and Clarifai API logic handled server-side |
 
